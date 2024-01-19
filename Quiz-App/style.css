@@ -27,7 +27,7 @@ body {
     color: #001e4d;
     font-weight: 600;
     border-bottom: 1px solid #333;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .quiz {
@@ -38,6 +38,7 @@ body {
     font-size: 18px;
     color: #001e4d;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .btn {
