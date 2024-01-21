@@ -14,19 +14,6 @@
     justify-content: center;
 }
 
-/* .useful-links {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-
-}
-
-.useful-links a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-} */
-
 .container form {
     width: 90%;
     max-width: 500px;
@@ -89,7 +76,7 @@ form button {
     margin: 30px auto 10px;
 }
 
-.input-group span{
+.input-group span {
     position: absolute;
     bottom: 12px;
     right: 17px;
@@ -97,10 +84,10 @@ form button {
     color: red;
 }
 
-#submit-error{
+#submit-error {
     color: red;
 }
 
-.input-group span i{
+.input-group span i {
     color: seagreen;
 }
