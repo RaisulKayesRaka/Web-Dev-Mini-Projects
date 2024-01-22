@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #d0eaff;
+    background: #c5ced6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
 
 .gallery {
     flex-basis: 47%;
-    background: #241e20;
+    background: #1f1f27;
     transform: scale(1.08);
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -57,7 +57,7 @@
 }
 
 .details h3 {
-    color: #00d874;
+    color: #557aff;
     margin-bottom: 20px;
 }
 
@@ -66,26 +66,26 @@
     font-weight: 400;
 }
 
-.size-select {
+.ram-size-select {
     display: flex;
     align-items: center;
     margin-top: 50px;
 }
 
-.size-select p {
+.ram-size-select p {
     width: 70px;
 }
 
-.size-select input:checked+span {
-    color: blue;
+.ram-size-select input:checked+span {
+    color: #557aff;
     font-weight: 600;
 }
 
-.size-select input {
+.ram-size-select input {
     display: none;
 }
 
-.size-select span {
+.ram-size-select span {
     padding: 5px;
     margin-right: 10px;
     cursor: pointer;
@@ -111,19 +111,11 @@
 }
 
 .color-1 {
-    background: red;
+    background: #aca49b;
 }
 
 .color-2 {
-    background: #00d874;
-}
-
-.color-3 {
-    background: blue;
-}
-
-.color-4 {
-    background: pink;
+    background: #62605f;
 }
 
 .color-select input {
@@ -155,7 +147,7 @@
 }
 
 form button {
-    background: #553ff0;
+    background: #557aff;
     color: #fff;
     font-size: 17px;
     width: 100%;
@@ -185,5 +177,5 @@ form button {
 }
 
 .btn.active {
-    background: #553ff0;
+    background: #557aff;
 }
